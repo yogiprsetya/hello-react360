@@ -1,0 +1,101 @@
+{
+  "initialSceneId": "Exit",
+  "scenes": [
+    {
+      "id": "Exit",
+      "title": "Tampak Depan",
+      "image": "Lavon/1Exit.jpg",
+      "preview": "Lavon/1Exit.jpg",
+      "doors": [
+        {
+          "sceneId": "Entrance",
+          "location": {
+            "left": 3400,
+            "top": 500
+          }
+        }
+      ]
+    },
+    {
+      "id": "Entrance",
+      "title": "Ruang Tamu",
+      "image": "Lavon/2Entrance.jpg",
+      "preview": "Lavon/2Entrance.jpg",
+      "doors": [
+        {
+          "sceneId": "Exit",
+          "location": {
+            "left": 1100,
+            "top": 610
+          }
+        },
+        {
+          "sceneId": "DiningRoom",
+          "location": {
+            "left": 3600,
+            "top": 610
+          }
+        }
+      ]
+    },
+    {
+      "id": "DiningRoom",
+      "title": "Ruang Makan",
+      "image": "Lavon/3Dining-Room.jpg",
+      "preview": "Lavon/3Dining-Room.jpg",
+      "doors": [
+        {
+          "sceneId": "Entrance",
+          "location": {
+            "left": 900,
+            "top": 610
+          }
+        },
+        {
+          "sceneId": "Bathroom",
+          "location": {
+            "left": 2100,
+            "top": 610
+          }
+        },
+        {
+          "sceneId": "Bedroom",
+          "location": {
+            "left": 2600,
+            "top": 610
+          }
+        }
+      ]
+    },
+    {
+      "id": "Bathroom",
+      "title": "Kamar Mandi",
+      "image": "Lavon/4Bathroom.jpg",
+      "preview": "Lavon/4Bathroom.jpg",
+      "doors": [
+        {
+          "sceneId": "DiningRoom",
+          "location": {
+            "left": 0,
+            "top": 610
+          }
+        }
+      ]
+    },
+    {
+      "id": "Bedroom",
+      "title": "Kamar Tidur",
+      "image": "Lavon/5Bedroom.jpg",
+      "preview": "Lavon/5Bedroom.jpg",
+      "doors": [
+        {
+          "sceneId": "DiningRoom",
+          "location": {
+            "left": 290,
+            "top": 610
+          }
+        }
+      ]
+    }
+  ]
+}
