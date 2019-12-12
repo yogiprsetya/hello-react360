@@ -37,16 +37,16 @@ export default class SceneManager extends React.Component {
     this.setState({ currentSceneId: sceneToGo.id });
   };
 
-  // renderHints = (hints = []) => {
-  //   return hints.map((hint, i) => (
-  //     <Hint
-  //       key={i}
-  //       title={hint.title}
-  //       description={hint.description}
-  //       location={hint.location}
-  //     />
-  //   ));
-  // };
+  renderHints = (hints = []) => {
+    return hints.map((hint, i) => (
+      <Hint
+        key={i}
+        title={hint.title}
+        description={hint.description}
+        location={hint.location}
+      />
+    ));
+  };
 
   renderDoors = (doors = []) => {
     return doors.map((door, i) => {
@@ -70,7 +70,7 @@ export default class SceneManager extends React.Component {
     return (
       <View style={{ flex: 1 }}>
         <SceneTitle title={currentScene.title} />
-        {/* {this.renderHints(currentScene.hints)} */}
+        {this.renderHints(currentScene.hints)}
         {this.renderDoors(currentScene.doors)}
       </View>
     );

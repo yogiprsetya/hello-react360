@@ -24,7 +24,7 @@ function init(bundle, parent, options = {}) {
   );
 
   // Load the initial environment
-  r360.compositor.setBackground(r360.getAssetURL("Lavon/1Exit.jpg"));
+  // r360.compositor.setBackground(r360.getAssetURL("Lavon/1Exit.jpg"));
 }
 
 window.React360 = { init };

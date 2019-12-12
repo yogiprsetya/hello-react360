@@ -67,11 +67,10 @@ const styles = StyleSheet.create({
     padding: 10,
     borderRadius: 10,
     width: 300,
-    backgroundColor: "rgba(255, 255, 255, 0.7)",
-    borderColor: "#639dda",
-    borderWidth: 2
+    backgroundColor: "rgba(255, 255, 255, 1)",
   },
   title: {
-    fontSize: 20
+    fontSize: 20,
+    color: '#111'
   }
 });

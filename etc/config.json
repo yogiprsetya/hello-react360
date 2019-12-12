@@ -14,6 +14,29 @@
             "top": 500
           }
         }
+      ],
+      "hints": [
+        {
+          "description": "Ini hantu deh kayaknya",
+          "location": {
+            "left": 2100,
+            "top": 480
+          }
+        },
+        {
+          "description": "ini balong",
+          "location": {
+            "left": 1900,
+            "top": 540
+          }
+        },
+        {
+          "description": "Ini Suket",
+          "location": {
+            "left": 800,
+            "top": 800
+          }
+        }
       ]
     },
     {
