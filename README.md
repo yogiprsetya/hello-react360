@@ -2,9 +2,8 @@
 
 ```
 React 360 exploration mission. Build awesome VR viewer platform.
-
-Demo: [https://yogiprsetya.github.io/hello-react360](https://yogiprsetya.github.io/hello-react360/
 ```
+[Demo here!](https://yogiprsetya.github.io/hello-react360/)
 
 ### Install and run
 
